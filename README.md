@@ -20,7 +20,7 @@ The payload can be modified to accept groupId instead of accountId arguments, if
 3. Do an initial run of the script with no arguments - you will be prompted if you would like to display a list of Conformity accountIds against their account name and AWS account number (to help you identify which accounts are of interest).
 4. Select not to procees
 5. Run the script for real with either comma separated list of accountId arguments, or leave blank to apply a config accross all accounts, e.g.  
-`$ ./script-name` - apply to all accounts
-`$ ./script-name acbds2347,sdlccn287` - will apply to only the listed accounts
+`$ ./script-name` - apply to all accounts  
+`$ ./script-name acbds2347,sdlccn287` - will apply to only the listed accounts  
 6. Follow the prompts and confirmation to apply the report configurations
 
